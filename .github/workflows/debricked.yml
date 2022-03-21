@@ -9,4 +9,4 @@ jobs:
     - uses: actions/checkout@v2
     - uses: debricked/actions/scan@v1
       env:
-        DEBRICKED_TOKEN: ${{ secrets.GitHubActionsStaging }}
+        DEBRICKED_TOKEN: ${{ secrets.DEBRICKEDSTAGING }}
